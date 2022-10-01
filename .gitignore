@@ -2,3 +2,4 @@
 __pucache__/
 db.sqlite3
 .DS_Store
+docker-compose.yml
