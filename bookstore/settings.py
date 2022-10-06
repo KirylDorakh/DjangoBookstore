@@ -181,3 +181,8 @@ EMAIL_HOST_USER = env.str('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = env.str("EMAIL_HOST_PASSWORD")
 EMAIL_PORT = env.int('EMAIL_PORT')
 EMAIL_USE_TLS = env.bool('EMAIL_USE_TLS', default=True)
+
+
+# media
+MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_URL = '/media/'
